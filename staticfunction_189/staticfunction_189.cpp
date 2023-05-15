@@ -20,6 +20,7 @@ void mahasiswa::setID() {
 }
 
 void mahasiswa::printALL() {
-	cout << "ID = " << 10 << endl;
-	cout << "nama = " << endl;
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
 }
