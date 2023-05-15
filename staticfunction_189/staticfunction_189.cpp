@@ -10,4 +10,5 @@ public:
 
 	void setID();
 	voidprintALL();
+	mahasiswa(string pnama) :nama(pnama) { setID(); }
 }
