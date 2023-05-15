@@ -14,7 +14,11 @@ public:
 	void cetak();
 };
 
-mahasiswa::mahasiswa() {
+mahasiswa :: mahasiswa(){
 	nim = 0;
 	nama = "";
+}
+
+mahasiswa::mahasiswa(int iNim) {
+
 }
