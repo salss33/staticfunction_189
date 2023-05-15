@@ -16,7 +16,7 @@ public:
 int mahasiswa::nim = 0;
 
 void mahasiswa::setID() {
-	id = ++nimm;
+	id = ++nim;
 }
 
 void mahasiswa::printALL() {
@@ -24,3 +24,5 @@ void mahasiswa::printALL() {
 	cout << "Nama = " << nama << endl;
 	cout << endl;
 }
+
+int main ()
