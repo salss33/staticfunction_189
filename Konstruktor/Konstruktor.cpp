@@ -4,4 +4,5 @@ using namespace std;
 
 class mahsiswa {
 private:
+	int nim;
 };
