@@ -15,5 +15,6 @@ public:
 };
 
 mahasiswa::mahasiswa() {
-
+	nim = 0;
+	nama = "";
 }
