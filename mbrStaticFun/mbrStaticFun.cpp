@@ -18,7 +18,7 @@ public:
 	mahasiswa(string pnama) :nama(pnama) { setID(); }
 };
 
-int mahasiswa :: nim = 0;
+int mahasiswa::nim = 0;
 
 void mahasiswa::setID() {
 	id = ++nim;
@@ -31,11 +31,11 @@ void mahasiswa::printAll() {
 }
 
 int main() {
-	mahasiswa mhs1("Sri Dadi")
-		mahasiswa mhs2("Budi Jatmiko");
+	mahasiswa mhs1("Sri Dadi");
+	mahasiswa mhs2("Budi Jatmiko");
 	mahasiswa::setNim(9); //mengakses nim melalui static member function "setNim"
 	mahasiswa mhs3("Andi Janu");
-	mahasiswa mhs("Joko Wahono");
+	mahasiswa mhs4("Joko Wahono");
 
 	mhs1.printAll();
 	mhs2.printAll();
@@ -44,4 +44,6 @@ int main() {
 
 	cout << "akses dari luar object = " << mahasiswa::getNim << endl; // mengakses nim melalui static member function "getNim"
 	system("pause");
+
+	return 0;
 }
