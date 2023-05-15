@@ -9,4 +9,5 @@ public:
 	string nama;
 
 	void setID();
+	voidprintALL();
 }
