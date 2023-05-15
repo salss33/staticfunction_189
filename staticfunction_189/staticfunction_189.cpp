@@ -27,4 +27,5 @@ void mahasiswa::printALL() {
 
 int main() {
 	mahasiswa mhs1("Lia Kurnia");
+	mahasiswa mhs2("Asroni");
 }
