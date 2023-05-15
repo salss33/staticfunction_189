@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class mahsiswa{
+class mahasiswa{
 private:
     int nim;
     string nama;
@@ -20,15 +20,19 @@ mahasiswa :: mahasiswa(){
 }
 
 mahasiswa :: mahasiswa(int iNim){
-	nim = iNim;
+	nim=iNim;
 }
 
-mahasiwa::mahasiswa(string iNama) {
-	nama = iNim;
+mahasiswa :: mahasiswa(string iNama){
 	nama = iNama;
 }
-void mahasiswa::cetak() {
-	cout <<endl << "Nim =" <<nim<<endl;
+
+mahasiswa::mahasiswa(int iNim, string iNama) {
+	nim = iNim;
+	nama = iNama;
+}
+void mahasiswa::cetak(){
+	cout <<endl<< "Nim =" <<nim<<endl;
 	cout << "Nama =" <<nama<<endl;
 }
 
@@ -45,4 +49,3 @@ int main() {
 
 	return 0;
 }
-
