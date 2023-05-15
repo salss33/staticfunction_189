@@ -9,4 +9,5 @@ private:
 public:
 	mahasiswa();
 	mahasiswa(int);
+	mahasiswa(string);
 };
