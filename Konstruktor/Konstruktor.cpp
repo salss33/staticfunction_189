@@ -6,4 +6,5 @@ class mahsiswa {
 private:
 	int nim;
 	string nama;
+public:
 };
