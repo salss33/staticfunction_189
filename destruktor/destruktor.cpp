@@ -11,3 +11,4 @@ public:
 	void cetakData();
 	void isiData();
 };
+
