@@ -1,11 +1,11 @@
 #include <iostream>
-#include <iostream>
+#include <string>
 using namespace std;
 
-class mahsiswa {
+class mahsiswa{
 private:
-	int nim;
-	string nama;
+    int nim;
+    string nama;
 public:
 	mahasiswa();
 	mahasiswa(int);
@@ -13,3 +13,7 @@ public:
 	mahasiswa(int iNim, string iNama);
 	void cetak();
 };
+
+mahasiswa::mahasiswa() {
+
+}
