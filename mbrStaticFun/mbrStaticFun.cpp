@@ -12,4 +12,5 @@ public:
 	void setID();
 	void printAll()
 
-		static void setNim(int pNim) { nim = pNim; /*Defunisi Function*/ }
+    static void setNim(int pNim) { nim = pNim; /*Defunisi Function*/ }
+	static int getNim() { return nim; /*Definisi function*/ }
