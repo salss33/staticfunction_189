@@ -16,3 +16,8 @@ public:
 	}
 
 } bukunya;
+
+int main()
+{
+
+}
