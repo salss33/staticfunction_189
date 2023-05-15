@@ -25,4 +25,6 @@ void mahasiswa::printALL() {
 	cout << endl;
 }
 
-int main ()
+int main() {
+	mahasiswa mhs1("Lia Kurnia");
+}
