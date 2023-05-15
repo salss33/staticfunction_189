@@ -10,7 +10,9 @@ public:
 	string nama;
 
 	void setID();
-	void printAll()
+	void printAll();
 
-    static void setNim(int pNim) { nim = pNim; /*Defunisi Function*/ }
-	static int getNim() { return nim; /*Definisi function*/ }
+    static void setNim(int pNim) { nim = pNim; /*Definisi Function*/ }
+	static int getNim() { return nim; /*Definisi Function*/ }
+	 
+	mahasiswa(string pnama) :nama(pnama) { setID(); }
